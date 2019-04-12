@@ -1,0 +1,293 @@
+@font-face {
+  font-family: 'Geometria';
+  src: url('../fonts/Geometria.eot');
+  src: local('Geometria'), url('../fonts/Geometria.eot?#iefix') format('embedded-opentype'), url('../fonts/Geometria.woff') format('woff'), url('../fonts/Geometria.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Geometria';
+  src: url('../fonts/Geometria-Bold.eot');
+  src: local('Geometria Bold'), local('Geometria-Bold'), url('../fonts/Geometria-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Geometria-Bold.woff') format('woff'), url('../fonts/Geometria-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Geometria';
+  src: url('../fonts/Geometria-ExtraBold.eot');
+  src: local('Geometria ExtraBold'), local('Geometria-ExtraBold'), url('../fonts/Geometria-ExtraBold.eot?#iefix') format('embedded-opentype'), url('../fonts/Geometria-ExtraBold.woff') format('woff'), url('../fonts/Geometria-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+.geo_reg {
+  font-family: 'Geometria';
+  font-weight: normal;
+  font-style: normal;
+}
+.geo_bold {
+  font-family: 'Geometria';
+  font-weight: bold;
+  font-style: normal;
+}
+.geo_ex_bold {
+  font-family: 'Geometria';
+  font-weight: 800;
+  font-style: normal;
+}
+.purple {
+  color: #7c6ba9;
+}
+.grey {
+  color: #d3e2e6;
+}
+.light {
+  color: #fff;
+}
+.dark {
+  color: #000;
+}
+h1 {
+  font-family: 'Geometria';
+  font-weight: 800;
+  font-style: normal;
+  color: #000;
+  font-size: 3em;
+  letter-spacing: -20;
+}
+h2 {
+  font-family: 'Geometria';
+  font-weight: 800;
+  font-style: normal;
+  color: #000;
+  font-size: 32pt;
+  letter-spacing: -20;
+}
+h4 {
+  font-family: 'Geometria';
+  font-weight: bold;
+  font-style: normal;
+  color: #000;
+  font-size: 14pt;
+  letter-spacing: -20;
+}
+p {
+  font-family: 'Geometria';
+  font-weight: normal;
+  font-style: normal;
+  color: #000;
+  letter-spacing: -20;
+}
+button {
+  width: 185px;
+  height: 47px;
+  border-radius: 25px;
+  font-family: 'Geometria';
+  font-weight: normal;
+  font-style: normal;
+  color: #000;
+  font-size: 14pt;
+  letter-spacing: -20;
+}
+.header {
+  background-color: #fff;
+  max-width: 1140px;
+}
+a,
+.btn-link {
+  font-family: 'Geometria';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 12pt;
+  color: #000;
+  text-decoration: none;
+}
+a:hover,
+.btn-link:hover {
+  color: #7c6ba9;
+  text-decoration: none;
+}
+.btn-link:link {
+  text-decoration: none;
+}
+.btn-link:focus {
+  text-decoration: none;
+}
+.nav_center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo {
+  max-width: 180px;
+  height: auto;
+}
+.btn-primary,
+.btn-primary:hover {
+  background-color: #7c6ba9;
+  border-color: #7c6ba9;
+}
+.back-first {
+  background-image: url(../img/head-img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center, center;
+  min-height: 767px;
+}
+.title_header {
+  margin-top: 90px;
+  margin-bottom: 50px;
+}
+.content_header {
+  position: relative;
+  padding-left: 90px;
+  font-size: 12pt;
+}
+.content_header > a {
+  font-family: 'Geometria';
+  font-weight: 800;
+  font-style: normal;
+  font-size: 12pt;
+}
+.content_header::before {
+  content: url(../img/line.png);
+  position: absolute;
+  left: 0px;
+  top: -5px;
+}
+.content_header::after {
+  content: url(../img/line.png);
+  position: absolute;
+  right: 215px;
+  bottom: 5px;
+}
+.play {
+  background-color: rgba(255, 255, 255, 0.35);
+  height: 140px;
+  width: 140px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.footer {
+  margin-bottom: 0 !important;
+  padding-top: 20px;
+}
+.b_purple {
+  background: #7b6aa8;
+}
+.footer a {
+  color: #fff !important;
+  text-transform: uppercase;
+  font-size: 1em !important;
+}
+.container-video {
+  min-height: 145px;
+  margin-top: 137px;
+}
+.last_news_left {
+  height: 145px;
+  background-image: url(../img/videoch.png);
+  background-size: cover;
+  background-position: -50px center;
+}
+.last_news_right {
+  height: 145px;
+  background-image: url(../img/backvideo.png);
+  background-size: cover;
+  background-position: center right;
+}
+.form-give {
+  background-color: #f8f8f8;
+}
+.last_news_right > p {
+  width: 215px;
+  height: 55px;
+  overflow: hidden;
+  font-size: 12px;
+}
+.img_pay img {
+  margin-right: auto !important;
+}
+.all-video > h4 {
+  color: #fff;
+}
+.all-video > a {
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.all-video > a > img {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+.donate {
+  background: #f1f1f1;
+  border-radius: 50px 0 0 0;
+}
+.dimg {
+  margin-top: 50px;
+}
+.need {
+  height: 250px;
+  margin-top: 170px;
+}
+.need > p {
+  font-size: 14px;
+}
+.btn-shadow {
+  box-shadow: 0 0 50px rgba(109, 87, 165, 0.38);
+  width: 180px;
+}
+.back_need {
+  min-height: 570px;
+  background-image: url(../img/backneed.png);
+  background-repeat: no-repeat;
+  background-size: auto 465px;
+  background-position: right 95%;
+}
+@media screen and (max-width: 830px) {
+  .back_need {
+    background-image: none;
+  }
+}
+@media screen and (max-width: 530px) {
+  .dimg {
+    max-width: 300px;
+  }
+}
+.donaters p {
+  line-height: 0.7em;
+  min-height: 30px;
+}
+.net {
+  min-height: 470px;
+  background-image: url(../img/backnet.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left center;
+}
+.net-item > h4,
+.net-item > p {
+  color: #fff;
+}
+.net-item > h4 {
+  margin-top: 90px;
+  margin-bottom: 65px;
+  font-size: 32px;
+  font-family: 'Geometria';
+  font-weight: 800;
+  font-style: normal;
+}
+.net-icon > a,
+.net-icon > a:target,
+.net-icon > a:hover {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+.net-icon {
+  margin-top: 130px;
+}
+.lawyer {
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
